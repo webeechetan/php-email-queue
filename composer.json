@@ -1,0 +1,15 @@
+{
+    "name": "email-queue/package",
+    "description": "A PHP package for handling email queues",
+    "require": {
+        "illuminate/database": "^8.0",
+        "illuminate/events": "^8.0",
+        "illuminate/queue": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmailQueue\\": "src/"
+        }
+    }
+}
